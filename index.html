@@ -105,10 +105,23 @@
   </section>
   
   <!-- TROISIEME SECTION -->
-  <section>
-    <div style="width: 400px">
+  <section class="bg-dark text-white p-5">
+    <div class=" mx-auto w-75" style="width: 400px">
       <h2>Contactez-nous</h2>
       <!-- ICI : formulaire -->
+          <div class="mb-3">
+            <label for="" class="form-label">Adresse mail</label>
+            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="johndoe@mail.com">
+            <small id="emailHelpId" class="form-text text-muted">Nous ne partagerons pas votre adresse email.</small>
+          </div>
+
+          <div class="mb-3">
+            <label for="" class="form-label">Message</label>
+            <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+          </div>
+
+          <button class="btn btn-outline-light mt-3">Soumettre</button>
+
     </div>
   </section>
   
